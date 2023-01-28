@@ -19,6 +19,10 @@ The content in the original file will be copied in the new file.
 End the program.
 ## PROGRAM:
 ```
+'''
+Developed by: Ronick Aakshath P
+RegisterNumber: 22007303
+'''
 with open("sample1.txt", "r") as firstfile:
     with open("sample2.txt", "a") as secondfile:
         for line in firstfile:
